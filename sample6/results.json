@@ -1,0 +1,119 @@
+[
+  {
+    "description": "  Try cucumber with detox",
+    "elements": [
+      {
+        "description": "",
+        "id": "initial-cucumber-test;test-cucumber",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test Cucumber",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59698297699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I should see the \"welcome\" element",
+            "match": {
+              "location": "cucumber\\finders.step.js:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4912702800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the \"Hi\" text",
+            "match": {
+              "location": "cucumber\\finders.step.js:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177553499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78796099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "initial-cucumber-test;test-enter-name--is-visible",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test enter name  is visible",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53241617599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I should see the \"entername\" element",
+            "match": {
+              "location": "cucumber\\finders.step.js:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4079179800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the \"\" data in it entername",
+            "match": {
+              "location": "cucumber\\finders.step.js:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97208699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55777400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "initial-cucumber-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Initial Cucumber Test",
+    "tags": [],
+    "uri": "cucumber\\first.feature"
+  }
+]
